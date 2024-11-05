@@ -41,6 +41,8 @@ make install
 #Treemix是假设你的SNP是不连锁的，并且它并不喜欢SNP VCF中有缺失的数据
 #所以需要先对ld和maxmissing 1进行过滤
 
+##########################################################################################################################################
+
 # ld pruning
 ./ldPruning.sh RefTdalaica.Tdalaica_17.snpgap.xindels.biallele.depth.nomiss.minq.maf.vcf.gz 0.5
 # https://speciationgenomics.github.io/Treemix/
